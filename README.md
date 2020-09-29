@@ -1,9 +1,8 @@
 # FFXIV_Auxiliary_Tools
 
 * QQ群:868116069
-  * [提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
-  * [别像Stupid一样提问](https://github.com/dogfight360/Stop-Ask-Questions-The-Stupid-Ways/blob/master/README.md)
-  * [如何优雅的提问](http://www.360doc.com/content/19/1223/08/30422483_881502108.shtml)
+  * [提问前请看](http://www.360doc.com/content/19/1223/08/30422483_881502108.shtml)
+  
 * 下载分流
   * [Github](https://github.com/553469159/FFXIV_Auxiliary_Tools)
   * [Gitee](https://gitee.com/soumasumire/FFXIV_Auxiliary_Tools)
@@ -13,14 +12,8 @@
 ## 基础依赖
 
   1. 启用 DirectX 11 运行 最终幻想14
-  1. 安装 [ACT呆萌整合](https://nga.178.com/read.php?tid=19019884) / [Triggernometry](https://github.com/paissaheavyindustries/Triggernometry)
+  1. 安装 [ACT呆萌整合](https://nga.178.com/read.php?tid=19019884) / [FFCafe国服整合](https://ffcafe.org/act/) / [Triggernometry](https://github.com/paissaheavyindustries/Triggernometry)
   1. **聊天框消息没有被过滤** [视频演示](https://www.bilibili.com/video/av83704576/)
-
-## 统一为所有触发器设置鲶鱼精邮差端口
-
-1. 运行 `配置环境变量.bat`
-
-1. **重新启动ACT**
 
 ## 导入触发器
 
@@ -30,9 +23,13 @@
 远程仓库地址：
 
 ```仓库地址:
-
-副本触发器
+5.0副本触发器
 https://gitee.com/soumasumire/FFXIV_Auxiliary_Tools/raw/master/Triggernometry%E8%A7%A6%E5%8F%91%E5%99%A8/%E5%89%AF%E6%9C%AC%E8%A7%A6%E5%8F%91%E5%99%A8/5.0%E8%A7%A6%E5%8F%91%E5%99%A8.xml
+
+配置【鲶鱼精邮差】监听端口（导入时需勾选“允许触发器启动进程”）
+//复制到本地以修改端口
+//已经下载到本地的可以也选择运行'设置鲶鱼精邮差端口.bat'进行设置
+https://gitee.com/soumasumire/FFXIV_Auxiliary_Tools/raw/master/Triggernometry%E8%A7%A6%E5%8F%91%E5%99%A8/%E9%85%8D%E7%BD%AE%E9%B2%B6%E9%B1%BC%E7%B2%BE%E9%82%AE%E5%B7%AE%E7%AB%AF%E5%8F%A3.xml
 
 Aho 团辅监控
 https://gitee.com/soumasumire/FFXIV_Auxiliary_Tools/raw/master/Triggernometry%E8%A7%A6%E5%8F%91%E5%99%A8/Aho%E5%9B%A2%E8%BE%85%E7%9B%91%E6%8E%A7/Aho's%20Raid%20Buffs.xml
@@ -55,7 +52,7 @@ https://gitee.com/soumasumire/FFXIV_Auxiliary_Tools/raw/master/Triggernometry%E8
 OBS自动录制
 https://gitee.com/soumasumire/FFXIV_Auxiliary_Tools/raw/master/Triggernometry%E8%A7%A6%E5%8F%91%E5%99%A8/OBS%E8%87%AA%E5%8A%A8%E5%BD%95%E5%88%B6.xml
 
-一键占星出卡（使用时需开启【鲶鱼精邮差】）
+一键占星出卡（使用时需开启【鲶鱼精邮差】）（导入时需勾选“允许触发器操作文件”）
 https://gitee.com/soumasumire/FFXIV_Auxiliary_Tools/raw/master/Triggernometry%E8%A7%A6%E5%8F%91%E5%99%A8/%E4%B8%80%E9%94%AE%E7%B3%BB%E5%88%97/%E5%8D%A0%E6%98%9F%E4%B8%80%E9%94%AE%E5%8F%91%E5%8D%A1/AstAutoCard.xml
 
 一键跳舞（使用时需开启【鲶鱼精邮差】）
